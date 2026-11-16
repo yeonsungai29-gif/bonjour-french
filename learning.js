@@ -73,4 +73,4 @@ function examAreaSummary(unit){const stat=examStat(unit);return '문제 '+examUn
 function renderExamAnalysis(){$('exam-analysis').replaceChildren();examUnits.forEach((unit,i)=>{const stat=examStat(i),row=element('div',undefined,'analysis-row'),b=element('button',stat.wrong.length?'오답 중심 연습 →':'연습 →','secondary');b.onclick=()=>startExam(i);row.append(element('strong',unit.title),element('span',stat.attempts?Math.round(stat.correct/stat.attempts*100)+'% · '+stat.attempts+'문제 · 오답 '+stat.wrong.length+'개':'아직 기록 없음','hint'),b);$('exam-analysis').append(row);});}
 // Old accounts start a fresh review interval when they first use this version.
 function seedReviewSchedule(){const data=learningState();for(const unit of journeyState().completed)for(let p=0;p<units[unit].phrases.length;p++){const ref=unit+':'+p;if(!data.schedule[ref])data.schedule[ref]={stage:0,due:addDays(dateKey(),1),last:dateKey(),lapses:0};}}
-seedReviewSchedule();renderExamPath();renderPractice();renderStudy();initializeAccount();
+seedReviewSchedule();renderExamPath();renderPractice();renderStudy();

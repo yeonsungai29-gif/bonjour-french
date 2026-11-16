@@ -1,0 +1,15 @@
+{
+  "title": "Au café — 카페에서 첫 주문",
+  "language": "fr-FR",
+  "duration_target_seconds": 30,
+  "lines": [
+    {"start":0,"end":3.5,"speaker":"카페 직원","fr":"Bonjour ! Vous désirez ?","ko":"안녕하세요! 무엇을 드릴까요?"},
+    {"start":3.5,"end":9,"speaker":"손님","fr":"Bonjour ! Je voudrais un café, s’il vous plaît.","ko":"안녕하세요! 커피 한 잔 부탁합니다."},
+    {"start":9,"end":12.5,"speaker":"카페 직원","fr":"Sur place ou à emporter ?","ko":"매장에서 드시나요, 포장인가요?"},
+    {"start":12.5,"end":16,"speaker":"손님","fr":"Sur place, s’il vous plaît.","ko":"매장에서 마실게요."},
+    {"start":16,"end":20.5,"speaker":"카페 직원","fr":"Très bien. Ça fait trois euros.","ko":"좋습니다. 3유로입니다."},
+    {"start":20.5,"end":24.5,"speaker":"손님","fr":"Je peux payer par carte ?","ko":"카드로 결제할 수 있나요?"},
+    {"start":24.5,"end":28,"speaker":"카페 직원","fr":"Oui, bien sûr.","ko":"네, 물론이죠."},
+    {"start":28,"end":30,"speaker":"손님","fr":"Merci !","ko":"감사합니다!"}
+  ]
+}

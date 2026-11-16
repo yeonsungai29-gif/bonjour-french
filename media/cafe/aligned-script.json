@@ -1,0 +1,66 @@
+{
+  "title": "Au café — 카페에서 첫 주문",
+  "language": "fr-FR",
+  "duration_seconds": 23.074,
+  "timing_status": "aligned_to_generated_audio",
+  "format": "voiced_cafe_scene",
+  "watermark": false,
+  "lines": [
+    {
+      "start": 0.9,
+      "end": 3.496,
+      "speaker": "카페 직원",
+      "fr": "Bonjour ! Vous désirez ?",
+      "ko": "안녕하세요! 무엇을 드릴까요?"
+    },
+    {
+      "start": 3.596,
+      "end": 7.525,
+      "speaker": "손님",
+      "fr": "Bonjour ! Je voudrais un café, s’il vous plaît.",
+      "ko": "안녕하세요! 커피 한 잔 부탁합니다."
+    },
+    {
+      "start": 7.625,
+      "end": 10.224,
+      "speaker": "카페 직원",
+      "fr": "Sur place ou à emporter ?",
+      "ko": "매장에서 드시나요, 포장인가요?"
+    },
+    {
+      "start": 10.324,
+      "end": 13.218,
+      "speaker": "손님",
+      "fr": "Sur place, s’il vous plaît.",
+      "ko": "매장에서 마실게요."
+    },
+    {
+      "start": 13.318,
+      "end": 16.425,
+      "speaker": "카페 직원",
+      "fr": "Très bien. Ça fait trois euros.",
+      "ko": "좋습니다. 3유로입니다."
+    },
+    {
+      "start": 16.525,
+      "end": 18.638,
+      "speaker": "손님",
+      "fr": "Je peux payer par carte ?",
+      "ko": "카드로 결제할 수 있나요?"
+    },
+    {
+      "start": 18.738,
+      "end": 20.755,
+      "speaker": "카페 직원",
+      "fr": "Oui, bien sûr.",
+      "ko": "네, 물론이죠."
+    },
+    {
+      "start": 20.855,
+      "end": 22.174,
+      "speaker": "손님",
+      "fr": "Merci !",
+      "ko": "감사합니다!"
+    }
+  ]
+}

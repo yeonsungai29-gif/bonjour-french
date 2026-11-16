@@ -63,4 +63,4 @@ $('exam-action').onclick=()=>{const r=examRun,u=examUnits[r.unit];if(r.phase==='
 function exitExam(force=false){if(!force&&examRun.phase!=='result'&&!confirm('연습을 나갈까요? 제출한 문제 기록은 유지됩니다.'))return;examRun.phase='idle';if('speechSynthesis' in window)speechSynthesis.cancel();$('exam-session').hidden=true;$('app-main').hidden=false;showView('home');$('exam-continue').focus();}
 $('exam-exit').onclick=()=>exitExam();$('exam-continue').onclick=()=>startExam(examUnits.findIndex((_,i)=>!examState().completed.includes(i))<0?0:examUnits.findIndex((_,i)=>!examState().completed.includes(i)));$('exam-grammar').onclick=()=>{showView('library');activateTab('grammar');};
 const resetWithAccount=$('reset').onclick;$('reset').onclick=()=>{const before=state;resetWithAccount();renderDirection();if(state!==before&&examRun.phase!=='idle'){examRun.phase='idle';$('exam-session').hidden=true;$('app-main').hidden=false;showView('home');}};
-renderDirection();initializeAccount();
+renderDirection();

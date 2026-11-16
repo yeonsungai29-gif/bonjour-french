@@ -1,0 +1,63 @@
+{
+  "generated": "2026-11-16",
+  "method": "Unique dictionary lemmas and direct source-to-Korean Tatoeba links; no template multiplication or pivot translation",
+  "counts": {
+    "fr": {
+      "words": 1200,
+      "phrases": 1200
+    },
+    "ja": {
+      "words": 1200,
+      "phrases": 1200
+    }
+  },
+  "files": [
+    {
+      "file": "fr-dictionary.jsonl",
+      "url": "https://kaikki.org/kowiktionary/%ED%94%84%EB%9E%91%EC%8A%A4%EC%96%B4/kaikki.org-dictionary-%ED%94%84%EB%9E%91%EC%8A%A4%EC%96%B4.jsonl",
+      "sha256": "2c2030a37c08f106a142b2e1ff3b2b87aa44521f3f76a5fb46a7096381471232",
+      "bytes": 2807389
+    },
+    {
+      "file": "ja-dictionary.jsonl",
+      "url": "https://kaikki.org/kowiktionary/%EC%9D%BC%EB%B3%B8%EC%96%B4/kaikki.org-dictionary-%EC%9D%BC%EB%B3%B8%EC%96%B4.jsonl",
+      "sha256": "31d822ad322fdcf187293b45d5829f5376a84cf7eb68c7d12a81f6f814aa3928",
+      "bytes": 8058299
+    },
+    {
+      "file": "fra-detailed.tsv.bz2",
+      "url": "https://downloads.tatoeba.org/exports/per_language/fra/fra_sentences_detailed.tsv.bz2",
+      "sha256": "5a243f84b19296ffbe37adf1ee75fd829e329e38eca0082eaf39e2a1598d63d1",
+      "bytes": 14908009
+    },
+    {
+      "file": "jpn-detailed.tsv.bz2",
+      "url": "https://downloads.tatoeba.org/exports/per_language/jpn/jpn_sentences_detailed.tsv.bz2",
+      "sha256": "407d4301f9540fcbf5e00ae9ebc3a3b7dcac3fc0e065d563c9fd78262978ff6e",
+      "bytes": 4463506
+    },
+    {
+      "file": "kor-detailed.tsv.bz2",
+      "url": "https://downloads.tatoeba.org/exports/per_language/kor/kor_sentences_detailed.tsv.bz2",
+      "sha256": "0974a2c2915d0e8179fe50b0eeacf7e1b1fc81b2a8b709505348466c1cdff85e",
+      "bytes": 306516
+    },
+    {
+      "file": "fra-kor.tsv.bz2",
+      "url": "https://downloads.tatoeba.org/exports/per_language/fra/fra-kor_links.tsv.bz2",
+      "sha256": "abec71ff9a3e946996c9f459fee545da7eda250b6e63f5f8ebcfdf1eae5b7e70",
+      "bytes": 12828
+    },
+    {
+      "file": "jpn-kor.tsv.bz2",
+      "url": "https://downloads.tatoeba.org/exports/per_language/jpn/jpn-kor_links.tsv.bz2",
+      "sha256": "3eead5683ddee16af7f3e0ed302add9aa50aff5623a542cdd5592d777db36fbc",
+      "bytes": 14061
+    }
+  ],
+  "catalog_sha256": "6cd1458c4b75f1f2553c1f40e8424a248be5d030ab7f1298c5ac20223544a047",
+  "licenses": {
+    "word_data": "CC BY-SA 4.0",
+    "sentence_data": "CC BY 2.0 FR"
+  }
+}
